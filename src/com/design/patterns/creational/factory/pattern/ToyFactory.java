@@ -16,7 +16,7 @@ public class ToyFactory {
                 System.out.println("Invalid toy type");
                 throw new RuntimeException("Invalid toy type suggested !");
             }
-        };
+        }
     }
 
 }
