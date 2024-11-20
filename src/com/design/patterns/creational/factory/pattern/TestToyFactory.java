@@ -4,10 +4,13 @@ public class TestToyFactory {
 
     public static void main(String[] args) {
         ToyFactory tf = new ToyFactory();
-        tf.createToyFactory("Vehicle").printToySpecs();
+        tf.createToyFactory("Vehicle");
+        tf.printToySpecs();
 
-        tf.createToyFactory("BoardGame").printToySpecs();
+        tf.createToyFactory("BoardGame");
+        tf.printToySpecs();
 
-        tf.createToyFactory("Absurd").printToySpecs();
+        tf.createToyFactory("Absurd");
+        tf.printToySpecs();
     }
 }
